@@ -12,13 +12,37 @@ const sampleRecipes = [
     servings: 5,
     cookTime: "1:45",
     instructions: "1. Step One\n 2. Step Two\n 3. Step Three",
+    ingredients: [
+      {
+        id: 1,
+        name: "Chicken",
+        amount: "2 Pounds",
+      },
+      {
+        id: 2,
+        name: "Salt",
+        amount: "1 Tbsp",
+      },
+    ],
   },
   {
-    id: 1,
+    id: 2,
     name: "Salted Fish",
     servings: 4,
     cookTime: "1:45",
     instructions: "1. Step One\n 2. Step Two\n 3. Step Three",
+    ingredients: [
+      {
+        id: 1,
+        name: "Fish",
+        amount: "1.5 Pounds",
+      },
+      {
+        id: 2,
+        name: "Salt",
+        amount: "1 Tbsp",
+      },
+    ],
   },
 ];
 
