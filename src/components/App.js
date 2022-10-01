@@ -12,7 +12,7 @@ const sampleRecipes = [
     name: "Salted Chicken",
     servings: 5,
     cookTime: "1:45",
-    instructions: "1. Step One\n 2. Step Two\n 3. Step Three",
+    instructions: "1. Step One\n2. Step Two\n3. Step Three",
     ingredients: [
       {
         id: 1,
