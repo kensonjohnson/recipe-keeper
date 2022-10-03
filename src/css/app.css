@@ -1,14 +1,15 @@
-@import-normalize;
 @import "./button.css";
 @import "./recipe-list.css";
 @import "./recipe.css";
 @import "./ingredient-list.css";
+@import "./recipe-edit.css";
 
 *,
 *::before,
 *::after {
   font-family: "Times New Roman", Times, serif;
   margin: 0;
+  box-sizing: border-box;
 }
 
 html {
